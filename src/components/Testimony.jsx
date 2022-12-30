@@ -16,8 +16,7 @@ const Testimony = () => {
 
       <div className="__carousel">
         <Carousel
-        autoPlay={true}
-        interval={3000}
+          autoPlay={false}
           showStatus={false}
           renderArrowNext={(p) => (
             <span
