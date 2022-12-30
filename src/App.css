@@ -10,6 +10,30 @@ html {
 }
 /* * { outline: 1px dotted red } */
 
-.debug { 
+.debug {
   outline: 1px solid red;
+}
+
+.rcw-header{
+  background-color: transparent !important;
+}
+.rcw-messages-container .rcw-header{
+  background-color: transparent !important;
+}
+.rcw-messages-container {
+  background-color: transparent !important;
+}
+.rcw-conversation-container {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 24%,
+    rgba(255, 255, 255, 1) 63%
+  ) !important;
+}
+.rcw-sender {
+  background-color: transparent !important;
+}
+.rcw-launcher {
+  background-color: #000 !important;
 }
