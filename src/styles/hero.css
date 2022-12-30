@@ -87,7 +87,7 @@
 .__image_anim {
   width: 317px;
   /* opacity: 0; */
-  animation: moving 35s infinite linear;
+  animation: moving 40s infinite linear;
 }
 .__item_one {
   background-color: #fab929;

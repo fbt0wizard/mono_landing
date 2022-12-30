@@ -21,28 +21,28 @@ const Hero = () => {
   let content = useRef(null)
 
   useEffect(()=> {
-    gsap.to(prallel, {css: {transform: "skewY(22deg)"}, duration: .8, delay: .5})
-    gsap.to(prallel2, {css: {transform: "skewY(22deg)"}, duration: .8, delay: .5})
-    gsap.to(prallel3, {css: {transform: "skewY(22deg)"}, duration: .8, delay: .5})
+    gsap.to(prallel, {css: {transform: "skewY(22deg)"}, duration: .8, delay: 1.5})
+    gsap.to(prallel2, {css: {transform: "skewY(22deg)"}, duration: .8, delay: 1.5})
+    gsap.to(prallel3, {css: {transform: "skewY(22deg)"}, duration: .8, delay: 1.5})
 
-    gsap.to(prallel, {css: {transform: "translateY(20px) skewY(22deg)"}, duration: .8, delay: 1})
-    gsap.to(prallel2, {css: {transform: "translateY(-40px skewY(22deg)"}, duration: .8, delay: 1})
-    gsap.to(prallel3, {css: {transform: "translateY(-60px) skewY(22deg)"}, duration: .8, delay: 1})
+    gsap.to(prallel, {css: {transform: "translateY(20px) skewY(22deg)"}, duration: .8, delay: 2.5})
+    gsap.to(prallel2, {css: {transform: "translateY(-40px skewY(22deg)"}, duration: .8, delay: 2.5})
+    gsap.to(prallel3, {css: {transform: "translateY(-60px) skewY(22deg)"}, duration: .8, delay: 2.5})
 
-    gsap.to(prallel, {x: 70, duration: .8, delay: 1.5})
-    gsap.to(prallel2, {x: 40, duration: .8, delay: 1.5})
+    gsap.to(prallel, {x: 70, duration: .8, delay: 3.3})
+    gsap.to(prallel2, {x: 40, duration: .8, delay: 3.3})
 
-    gsap.fromTo(content, {opacity: 0, y: 250, scale: 0}, {scale: 1, opacity: 1, y: 0, duration: .8, delay: 2.5})
+    gsap.fromTo(content, {opacity: 0, y: 250, scale: 0}, {scale: 1, opacity: 1, y: 0, duration: .8, delay: 4.1})
 
-    gsap.fromTo(img, {opacity: 0, scale:0 }, {opacity: 1, scale: 1, duration: .5, delay: 3.5})
+    gsap.fromTo(img, {opacity: 0, scale:0 }, {opacity: 1, scale: 1, duration: .5, delay: 4.9})
 
-    gsap.fromTo(dashed, {opacity: 0, height: "0%"}, {opacity: 1, height: "50%", duration: .8, delay: 4})
-    gsap.fromTo(dashed2, {opacity: 0, height: "0%"}, {opacity: 1, height: "50%", duration: .8, delay: 4})
+    gsap.fromTo(dashed, {opacity: 0, height: "0%"}, {opacity: 1, height: "50%", duration: .8, delay: 5.4})
+    gsap.fromTo(dashed2, {opacity: 0, height: "0%"}, {opacity: 1, height: "50%", duration: .8, delay: 5.4})
 
-    gsap.fromTo(bg, { scale: 0, css:{ width: "0%", height: "0%"}}, {scale: 1, css: {width: "100%", height: "100%"}, duration: .5, delay: 4.8})
+    gsap.fromTo(bg, { scale: 0, css:{ width: "0%", height: "0%"}}, {scale: 1, css: {width: "100%", height: "100%"}, duration: .5, delay: 6.2})
 
 
-    gsap.fromTo(banks, {opacity: 1, x: 300}, {x:0, opacity: 1, duration: 6, delay: 6,})
+    gsap.fromTo(banks, {opacity: 0, x: 300}, {x:0, opacity: 1, duration: 1, delay: 7,})
   }, [])
   return (
     <section className="__hero_section">
