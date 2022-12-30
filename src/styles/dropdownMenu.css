@@ -1,0 +1,33 @@
+.__menu_items {
+    background-color: #fff;
+    padding: 1rem 5rem 1rem 1rem;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    line-height: 2rem;
+}
+.__menu_items_list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 1rem 0;
+}
+.__grid_menu {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)) !important;
+    grid-gap: 1rem;
+    width: 800px;
+}
+.__menu_items_list div {
+    line-height: 1.2rem;
+    max-width: 300px;
+}
+.__menu_subtitle {
+    font-size: 14px;
+    color: rgb(73, 73, 73);
+}
+.__menu_title {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 5px;
+}

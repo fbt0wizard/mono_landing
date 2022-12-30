@@ -1,0 +1,163 @@
+.__features_container {
+    margin: 0 12%;
+    margin-top: 2rem;
+}
+.__features_container h2 {
+    line-height: 1.15;
+    font-size: 3rem;
+    width: 50%;
+}
+.__features_container p {
+    line-height: 1.375;
+    font-size: 1.625rem;
+    width: 50%;
+    margin-top: 2rem;
+}
+.__festures_card {
+    background-image: url("https://monoassets.com/f/118499/2200x1080/c9632f083f/connect.jpg");
+    height: 460px;
+    border-radius: 15px;
+    width: 100%;
+    background-size: cover;
+    background-position: 100% 100%;
+    margin-top: 4rem;
+    padding: 3rem;
+    padding-top: 4.5rem;
+}
+.__festures_card h3 {
+    color: #fff;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    font-size: 2.8rem;
+}   
+.__festures_card p {
+    color: #fff;
+    max-width: 370px;
+    font-weight: 400;
+    font-size: 19px;
+}
+.__festures_card a {
+    text-decoration: none;
+    background-color: #fff;
+    color: #0155ba;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 45px;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-top: 2rem;
+    gap: 5px;
+}
+
+
+
+
+.__side_cards {
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    margin-top: 1rem;
+    grid-gap: 1rem;
+}
+
+.__side_one {
+    background-image: url("https://monoassets.com/f/118499/1080x1280/f73f641e15/directpay.jpg");
+    height: 698px;
+    border-radius: 15px;
+    width: 100%;
+    background-size: cover;
+    background-position: 100% 100%;
+    padding: 3rem;
+    padding-top: 4rem;
+}
+.__side_one h3 {
+    color: #000;
+    margin-top: 1.8rem;
+    margin-bottom: 1.25rem;
+    font-size: 2.8rem;
+}
+.__side_one p {
+    color: #000;
+    width: 100%;
+    font-weight: 400;
+    font-size: 19px;
+}
+.__side_one a {
+    text-decoration: none;
+    background-color: #0155ba;
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-top: 2rem;
+    gap: 5px;
+}
+.__side_two {
+    background-image: url("https://monoassets.com/f/118499/1080x1280/f5a17c8f24/percept.png");
+    height: 698px;
+    border-radius: 15px;
+    width: 100%;
+    background-size: cover;
+    background-position: 100% 100%;
+    padding: 3rem;
+    padding-top: 4rem;
+}
+.__side_two h3 {
+    color: #fff;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    font-size: 2.8rem;
+}
+.__side_two p {
+    color: #fff;
+    font-weight: 400;
+    width: 100%;
+    font-size: 19px;
+}
+.__side_two a {
+    text-decoration: none;
+    background-color: #202020;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-top: 2rem;
+    gap: 5px;
+}
+.__side_two img {
+    height: 40px;
+}
+
+@media only screen and (max-width: 997px) {
+    .__features_container {
+        margin: 3rem 5%;
+    }
+    .__features_container h2 {
+        font-size: 2rem;
+        width: 100%;
+    }
+    .__features_container p {
+        font-size: 1rem;
+        width: 100%;
+    }
+    .__side_one  {
+        height: 430px;
+    }
+    .__side_two  {
+        height: 430px;
+    }
+    .__festures_card h3, .__side_one h3, .__side_two h3 {
+        font-size: 1.7rem;
+    } 
+}

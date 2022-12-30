@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@400;600;700&family=La+Belle+Aurore&display=swap");
+
+*,
+body,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+/* * { outline: 1px dotted red } */
+
+.debug { 
+  outline: 1px solid red;
+}

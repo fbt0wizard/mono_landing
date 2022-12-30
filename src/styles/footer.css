@@ -1,0 +1,128 @@
+.__footer_wrapper {
+  background-color: #000;
+  padding: 4rem 12%;
+  color: #fff;
+}
+.__first_section {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+.__first_section h2 {
+  font-size: 4rem;
+  margin-top: 2rem;
+}
+.__first_section p {
+  max-width: 700px;
+  line-height: 2.5rem;
+  font-size: 1.6rem;
+  margin: 1.5rem auto;
+}
+.__light_button {
+  text-decoration: none;
+  background-color: #0155ba;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  font-size: 15px;
+  margin-top: 2rem;
+  gap: 5px;
+}
+.__black_button {
+  text-decoration: none;
+  background-color: #202020;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  font-size: 15px;
+  margin-top: 2rem;
+  gap: 5px;
+}
+.__control_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.__second_section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-gap: 1rem;
+  border-bottom: 1px solid rgb(63, 63, 63);
+  border-top: 1px solid rgb(63, 63, 63);
+  padding: 4rem 0;
+}
+.__link_title {
+    color:#646464;
+    font-weight: 600;
+}
+.__second_section ul li {
+    list-style-type: none;
+}
+.__second_section ul {
+    line-height: 2.8rem;
+}
+
+.__second_section ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.__third_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+.__third_section > div {
+    display: flex;
+    gap: 2rem;
+}
+.__third_section div ul {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.__third_section div ul li {
+    list-style-type: none;
+}
+.__third_section div ul li a{
+    text-decoration: none;
+    color:#b5b5b5;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 500;
+}
+
+.__third_section div ul li a:hover {
+    color: #fff;
+}
+
+@media only screen and (max-width: 700px) {
+  .__footer_wrapper {
+    padding: 4rem 5%;
+  }
+  .__first_section h2 {
+    font-size: 1.5rem;
+  }
+  .__first_section p {
+    max-width: unset;
+    line-height: 1.4rem;
+    font-size: 16px;
+  }
+  .__third_section {
+    flex-direction: column;
+  }
+  .__third_section > div {
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+}

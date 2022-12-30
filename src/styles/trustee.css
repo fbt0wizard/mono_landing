@@ -1,0 +1,27 @@
+.__trustee_section {
+    margin: 0 12%;
+    margin-top: 8rem;
+}
+.__trustee_section  h6{
+    font-weight: 500;
+    color: #808080;
+    font-size: .93rem;
+}
+.__trustee_icon {
+    margin-top: 2rem;
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    grid-gap: .5rem;
+}
+.__trustee_icon img {
+    width: 110px;
+}
+
+@media only screen and (max-width: 997px) {
+    .__trustee_section {
+        margin: 0 5%;
+        margin-top: 8rem;
+    }
+}

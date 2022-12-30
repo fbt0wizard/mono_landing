@@ -1,0 +1,127 @@
+.__navbar_container {
+  height: 96px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0 12%;
+}
+
+.__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+.__cross_svg {
+  opacity: 0;
+}
+
+.__nav_link {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.__nav_link li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.__nav_link svg {
+  font-size: 20px;
+}
+.__nav_link_menu {
+  color: #000;
+  font-size: .9375rem;
+  cursor: pointer;
+}
+.__call_to_action {
+  background-color: #0155ba;
+  height: 2.8rem;
+  width: 5.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.__call_to_action a {
+  color: #fff;
+  text-decoration: none;
+}
+.__mobile_menu {
+  display: none;
+}
+.__mobile_menu svg {
+  font-size: 28px;
+}
+
+.__mobile_menu_list {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  overflow: auto;
+  z-index: 2000;
+  background-color: #fff;
+}
+.__mobile_menu_list ul li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  line-height: 2.5rem;
+}
+.__mobile_menu_list ul li span {
+  font-size: 14px;
+}
+.__mobile_menu_list ul li img {
+  width: 30px;
+}
+.__mobile_menu_list ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 5px;
+    padding: 2rem 15px;
+    border-bottom: 1px solid #666;
+}
+.__mobile_menu_list a {
+  background-color: #0155ba;
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem 7rem;
+  border-radius: 10px;
+  margin: .9rem 0;
+}
+.__control_reg {
+  transform: translateY(100px);
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #fff;
+}
+
+
+
+@media only screen and (max-width: 997px) {
+  .__navbar_container {
+    padding: 0 5%;
+  }
+  .__nav_link {
+    display: none;
+  }
+  .__call_to_action {
+    display: none;
+  }
+  .__mobile_menu {
+    display: flex;
+  }
+  .__navbar {
+    justify-content: space-between;
+  }
+}
