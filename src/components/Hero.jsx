@@ -48,7 +48,7 @@ const Hero = () => {
     <section className="__hero_section">
       <div>
         <div className="__new_mono">
-          <a href="#">
+          <a href="/">
             <span className="__btn">NEW</span>
             <span className="__text">Mono is live in Kenya!</span>
             <AiOutlineArrowRight />
@@ -61,11 +61,11 @@ const Hero = () => {
             direct bank payments.
           </p>
           <div className="__action_button">
-            <a href="#" className="__button_primary">
+            <a href="/" className="__button_primary">
               <span>Get started for free</span>
               <AiOutlineArrowRight />
             </a>
-            <a href="#" className="__button_secondary">
+            <a href="/" className="__button_secondary">
               <span>Contact Sales</span>
               <AiOutlineArrowRight />
             </a>

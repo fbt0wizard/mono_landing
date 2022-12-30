@@ -90,7 +90,7 @@ const ScreenCard = ({ title, contentOne, contentTwo, image, pop }) => {
         <h3>{title}</h3>
         <p className="__content_one">{contentOne}</p>
         <p className="__content_one">{contentTwo}</p>
-        <a className="__link" href="#">
+        <a className="__link" href="/">
           <span>Read more about Statement Pages</span>
           <AiOutlineArrowRight />
         </a>

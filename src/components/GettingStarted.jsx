@@ -14,7 +14,7 @@ const GettingStarted = () => {
               alt=""
             />
             <h2>Powerful APIs and easy-to-use resources</h2>
-            <a href="#">
+            <a href="/">
               <span>Read our API Docs</span>
               <FiArrowUpRight />
             </a>
@@ -38,7 +38,7 @@ const GettingStarted = () => {
                 />
               </figure>
               <h4>Plug-and-play SDKs</h4>
-              <a href="#">
+              <a href="/">
                 <span>Explore our SDKs</span>
                 <FiArrowUpRight />
               </a>
@@ -51,7 +51,7 @@ const GettingStarted = () => {
                 />
               </figure>
               <h4>Beautiful seamless UX</h4>
-              <a href="#">
+              <a href="/">
                 <span>See a demo</span>
                 <FiArrowUpRight />
               </a>
@@ -64,7 +64,7 @@ const GettingStarted = () => {
                 />
               </figure>
               <h4>Always-on support</h4>
-              <a href="#">
+              <a href="/">
                 <span>Join us on Slack</span>
                 <FiArrowUpRight />
               </a>

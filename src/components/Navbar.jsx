@@ -133,7 +133,7 @@ const Navbar = () => {
           />
         </ul>
         <div className="__call_to_action">
-          <a href="#"> Sign in</a>
+          <a href="/"> Sign in</a>
         </div>
         <div className="__mobile_menu">
           <div ref={(el) => (crossMenu = el)} className="__cross_svg">

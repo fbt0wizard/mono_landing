@@ -21,7 +21,7 @@ const Features = () => {
           Securely access financial accounts for statements, transactions, and
           identity
         </p>
-        <a href="#">
+        <a href="/">
           <span>Start with Connect</span>
           <AiOutlineArrowRight />
         </a>
@@ -37,7 +37,7 @@ const Features = () => {
             Collect bank payments in your web or mobile app. No cards. No
             chargebacks
           </p>
-          <a href="#">
+          <a href="/">
             <span>Start with Connect</span>
             <AiOutlineArrowRight />
           </a>
@@ -52,7 +52,7 @@ const Features = () => {
             Money operations and reconciliation for all your corporate accounts,
             in one dashboard
           </p>
-          <a href="#">
+          <a href="/">
             <span>Request access</span>
             <BiTime />
           </a>
