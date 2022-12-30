@@ -1,0 +1,34 @@
+.__main_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.__chips {
+    width: 0px;
+    /* width: 39px; */
+    height: 32px;
+    background-color: #000;
+    position: absolute;
+}
+
+.__container_anim {
+    display: flex;
+    align-items: center;
+    background-color: rgb(233, 232, 232);
+    width: 97px;
+    height: 32px;
+    position: relative;
+}
+.__one {
+    left: 0;
+}
+.__two {
+    left: 39px;
+    transform: translateX(-10px);
+}
+.__three {
+    left: 77px;
+    transform: translateX(-20px);
+}
