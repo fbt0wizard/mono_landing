@@ -16,11 +16,11 @@ const Footer = () => {
         <div className="__control_section">
           <a className="__light_button" href="/">
             <span>Start now for free</span>
-            <AiOutlineArrowRight />
+            <AiOutlineArrowRight id="icon"/>
           </a>
           <a className="__black_button" href="/">
             <span>Talk to Sales</span>
-            <AiOutlineArrowRight />
+            <AiOutlineArrowRight id="icon"/>
           </a>
         </div>
       </section>

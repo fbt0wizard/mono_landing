@@ -52,6 +52,13 @@
     gap: 5px;
 }
 
+#icon {
+    transition: transform .2s ease-in-out;
+}
+.__festures_card a:hover #icon {
+    transform: translateX(5px);
+}
+
 
 
 
@@ -99,6 +106,13 @@
     margin-top: 2rem;
     gap: 5px;
 }
+#icon {
+    transition: transform .2s ease-in-out;
+}
+.__side_one a:hover #icon {
+    transform: translateX(5px);
+}
+
 .__side_two {
     background-image: url("https://monoassets.com/f/118499/1080x1280/f5a17c8f24/percept.png");
     height: 698px;
@@ -135,6 +149,14 @@
     margin-top: 2rem;
     gap: 5px;
 }
+#icon {
+    transition: transform .2s ease-in-out;
+}
+.__side_two a:hover #icon {
+    transform: translateX(5px);
+}
+
+
 .__side_two img {
     height: 40px;
 }

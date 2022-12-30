@@ -31,6 +31,15 @@
   margin-top: 2rem;
   gap: 5px;
 }
+#icon {
+  transition: transform .2s ease-in-out;
+}
+.__light_button:hover #icon {
+  transform: translateX(5px);
+}
+.__black_button:hover #icon {
+  transform: translateX(5px);
+}
 .__black_button {
   text-decoration: none;
   background-color: #202020;

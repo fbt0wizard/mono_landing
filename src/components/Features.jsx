@@ -23,7 +23,7 @@ const Features = () => {
         </p>
         <a href="/">
           <span>Start with Connect</span>
-          <AiOutlineArrowRight />
+          <AiOutlineArrowRight id="icon" />
         </a>
       </div>
       <div className="__side_cards">
@@ -39,7 +39,7 @@ const Features = () => {
           </p>
           <a href="/">
             <span>Start with Connect</span>
-            <AiOutlineArrowRight />
+            <AiOutlineArrowRight id="icon" />
           </a>
         </div>
         <div className="__side_two">
@@ -54,7 +54,7 @@ const Features = () => {
           </p>
           <a href="/">
             <span>Request access</span>
-            <BiTime />
+            <BiTime id="icon"/>
           </a>
         </div>
       </div>

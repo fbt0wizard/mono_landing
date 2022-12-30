@@ -51,7 +51,7 @@ const Hero = () => {
           <a href="/">
             <span className="__btn">NEW</span>
             <span className="__text">Mono is live in Kenya!</span>
-            <AiOutlineArrowRight />
+            <AiOutlineArrowRight  id="icon"/>
           </a>
         </div>
         <div className="__content">
@@ -63,11 +63,11 @@ const Hero = () => {
           <div className="__action_button">
             <a href="/" className="__button_primary">
               <span>Get started for free</span>
-              <AiOutlineArrowRight />
+              <AiOutlineArrowRight id="icon"/>
             </a>
             <a href="/" className="__button_secondary">
               <span>Contact Sales</span>
-              <AiOutlineArrowRight />
+              <AiOutlineArrowRight id="icon"/>
             </a>
           </div>
         </div>
